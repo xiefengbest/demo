@@ -1,11 +1,11 @@
 # AnyWP 数据 Demo
 
-用于预览预装锁屏产品 AnyWP 的数据工作台。
+AnyWP 用户数据后台方案，页面数据为演示值。
 
-- 首页：`index.html`
-- 页面使用示例数据，不连接 Firebase 或 BigQuery。
-- 页面会引用 AnySelected 后台的公开 Logo 和头像资源。
+## 发布版本
 
-## GitHub Pages
+- V1（原数据维度）：`/demo/v1/`，保留原版日活、事件、版本和地域分析。
+- V2（用户维度）：`/demo/v2/`，按“日活与新增、地域分析、产品详情”组织。
+- `/demo/` 根路径继续保留原版入口。
 
-上传至独立 GitHub 仓库后，在仓库设置中启用 Pages，发布来源选择 `main` 分支的根目录，即可获得 `https://<用户名>.github.io/<仓库名>/` 预览地址。
+V2 中的设备 ID 和 IP 是虚构示例；Publisher 与 Channel 映射为演示关系。
